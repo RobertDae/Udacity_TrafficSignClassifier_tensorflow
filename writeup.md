@@ -41,7 +41,7 @@ The goals / steps of this project are the following:
 ### Writeup / README
 
 Here is a link to my [project code](https://github.com/RobertDae/Udacity_TrafficSignClassifier/blob/master/Traffic_Sign_Classifier.ipynb)
-Here is a link to my [results](https://github.com/RobertDae/Udacity_TrafficSignClassifier/blob/master/Traffic_Sign_Classifier.html)
+Here is a link to my [results](https://github.com/RobertDae/Udacity_TrafficSignClassifier_tensorflow/blob/master/Traffic_Sign_Classifier.html)
 
 ### Data Set Summary & Exploration
 
