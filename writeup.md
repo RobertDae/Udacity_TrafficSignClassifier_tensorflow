@@ -174,20 +174,20 @@ The new images will look like this after beeing uniformed
 Here are the results of the prediction:
 
 
-|-----------------------------------------------------------------------------------------------|
-|                  PREDICTED                  |                   ACTUAL                        |
-|:-------------------------------------------:|:-----------------------------------------------:|
-| 12              Priority road               | 29            Bicycles crossing                 |
-| 31          Wild animals crossing           | 31          Wild animals crossing               |
-| 12              Priority road               | 12              Priority road                   |
-| 35                Ahead only                | 10 No passing for vehicles over 3.5 metric tons |
-| 11  Right-of-way at the next intersection   | 11  Right-of-way at the next intersection       |
-| 35                Ahead only                | 0            Speed limit (20km/h)               |
-| 18             General caution              | 27               Pedestrians                    |
-| 14                   Stop                   | 14                   Stop                       |
-| 38                Keep right                | 23              Slippery road                   |
-| 12              Priority road               | 8           Speed limit (120km/h)               |
-|-----------------------------------------------------------------------------------------------|
+| -----------------------------------------------------------------------------------------------|
+|                  PREDICTED                  |                   ACTUAL                         |
+|:-------------------------------------------:|:------------------------------------------------:|
+| 12              Priority road               | 29            Bicycles crossing                  |
+| 31          Wild animals crossing           | 31          Wild animals crossing                |
+| 12              Priority road               | 12              Priority road                    |
+| 35                Ahead only                | 10 No passing for vehicles over 3.5 metric tons  |
+| 11  Right-of-way at the next intersection   | 11  Right-of-way at the next intersection        |
+| 35                Ahead only                | 0            Speed limit (20km/h)                |
+| 18             General caution              | 27               Pedestrians                     |
+| 14                   Stop                   | 14                   Stop                        |
+| 38                Keep right                | 23              Slippery road                    |
+| 12              Priority road               | 8           Speed limit (120km/h)                |
+| ---------------------------------------------------------------------------------------------- |
 
 Accuracy = 0.300 (3 out of 10 Images) This is not very impressiv.
 
@@ -216,15 +216,15 @@ Here are the results of the prediction:
 
 good fittet model (ID 31):
 
-|-----------------------------------------------------------------------------------------------|
-|                  Class-ID                   |                   Prediction                    |
-|:-------------------------------------------:|:-----------------------------------------------:|
-| 31         Wild animals crossing            |              87.300%                            |
-| 30            Children crossing             |               1.379%                            |
-| 23               Slippery road              |               0.092487%                         |
-| 19       Dangerous curve to the left        |               1.303E-08%  ~ 0                   |
-| 11  Right-of-way at the next intersection   |               1.17763 E-08% ~ 0                 |
-|-----------------------------------------------------------------------------------------------|
+| ----------------------------------------------------------------------------------------------- |
+|                  Class-ID                   |                   Prediction                      |
+|:-------------------------------------------:|:-------------------------------------------------:|
+| 31         Wild animals crossing            |              87.300%                              |
+| 30            Children crossing             |               1.379%                              |
+| 23               Slippery road              |               0.092487%                           |
+| 19       Dangerous curve to the left        |               1.303E-08%  ~ 0                     |
+| 11  Right-of-way at the next intersection   |               1.17763 E-08% ~ 0                   |
+| ----------------------------------------------------------------------------------------------- |
 
 badly fittet but working model(ID 12): it recognizes the correct class but the gaps to the other classes are to small (no 1 /0)
 
